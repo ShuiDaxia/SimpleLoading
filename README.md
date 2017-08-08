@@ -22,7 +22,7 @@ allprojects {
 在项目根build.gradle下添加
 ```
 dependencies {
-    compile 'com.github.diswy:SimpleLoading:v1.0'
+	compile 'com.github.diswy:SimpleLoading:v1.0.1'
 }
 ```
 

@@ -24,32 +24,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         initView();
-
-//        //默认样式 loading将会覆盖在parent的内容上面
-//        LoadingBar.make(parent).show();
-
-        //默认样式
-//        LoadingDialog.make(this).show();
-
-//        View v = findViewById(R.id.container);
-//        LoadingBar.make(v).show();
-
-////        LoadingDialog.make(this).show();
-////        LoadingDialog.make(this).show();
-//
-//
-//        LoadingConfig.setFactory(new LoadingFactory() {
-//            @Override
-//            public View onCreateView(ViewGroup parent) {
-//                return LayoutInflater.from(parent.getContext()).inflate(R.layout.test, parent, false);
-//            }
-//        }, null);
-////        View v = findViewById(R.id.container);
-//        LoadingBar.make(v, LoadingConfig.getLoadingFactory()).show();
-//        LoadingBar.make(v, AviLoading.getLargeAviLoading("BallPulseIndicator", Color.rgb(0, 255, 0))).show();
-
     }
 
     private void initView() {

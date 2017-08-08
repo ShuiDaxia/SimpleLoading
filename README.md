@@ -9,11 +9,11 @@
 在项目根build.gradle下添加
 ```
 allprojects {
-    	repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
 	}
+}
 ```
 
 

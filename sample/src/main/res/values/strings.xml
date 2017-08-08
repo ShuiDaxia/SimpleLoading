@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SimpleLoading</string>
+    <string name="base_loading_bar">LoadingBar</string>
+    <string name="base_loading_dialog">LoadingDialog</string>
+    <string name="global_style_setting">全局样式配置</string>
+    <string name="default_setting">清除全局样式</string>
+    <string name="beautiful_loading">漂亮的第三方Loading</string>
+
+    <string name="default_style">默认样式</string>
+    <string name="custom_style">自定义样式</string>
+    <string name="hide_loading">隐藏Loading</string>
+</resources>
